@@ -1,6 +1,6 @@
 import calculateWinner from '../../shared/calculateWinner';
 import React from 'react';
-import ReactDOM from 'react-dom';
+import Square from '../Square/square';
 
 export default class Board extends React.Component {
 	constructor(props){
